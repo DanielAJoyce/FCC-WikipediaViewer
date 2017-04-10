@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./assets/stylesheets/libs/bootstrap.min.css">
+<script src="./assets/javascript/libs/jquery-3.2.0.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<link rel="stylesheet" type="text/css" href="./assets/stylesheets/main.css">
+
+  <title>FCC Wikipedia Viewer</title>
+</head>
+<body>
+<!-- Will refactor and convert to Angular down the road. This implementation will do for now. -->
+  <div class="container text-center" id="wiki">
+    <h1>Wikipedia Viewer </h1>
+    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="btn btn-success">Random Article</button></a>
+  
+    <form class="form-group">
+      <p>Input text and press enter to search for Wikipedia articles!</p>
+      
+  <input type="text" placeholder="Search Something here!" class="form-control text-field" id="searchField"/>
+    
+      <a href="#"><i class="fa fa-search" aria-hidden="true" id="search"></i></a>
+    </form>
+<!--Javscript created html here. -->
+    <div id="wikiDiv">
+      <ul class="wikiList">
+        <li><a id="0Link" target="_blank"></a></li>
+        <li><a href="#" id="1Link" target="_blank"></a></li>
+        <li><a href="#" id="2Link" target="_blank"></a></li>
+        <li><a href="#" id="3Link" target="_blank"></a></li>
+        <li><a href="#" id="4Link" target="_blank"></a></li>
+      </ul>
+    </div>
+  </div>
+  <<script src="./assets/javascript/wiki.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>

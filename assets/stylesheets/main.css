@@ -1,0 +1,118 @@
+body{
+  background-color:#999999;
+}
+html{
+  font-family: 'Roboto', sans-serif;
+}
+.fa{
+  color:white;
+  font-size:20px;
+}
+.container{
+  margin-top:50px;
+  margin-bottom:50px;
+  width:60%;
+  height:800px;
+  background-color:#2D4CB2;
+  border-radius:20px;
+  box-shadow:3px 3px #3D3D3D;
+}
+.form-control{
+  width:80%;
+  display:inline;
+}
+
+.container h1{
+  margin-bottom:50px;
+  padding-top:20px;
+  color:white;
+}
+.container p{
+  color:white;
+}
+h1{
+  margin-top:20px;
+}
+.form-control{
+  width:200px;
+}
+/*Autocomplete library...very helpful. */
+.ui-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  cursor:default;
+  float: left;
+  display: none;
+  min-width: 160px;
+  _width: 160px;
+  padding: 0px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+}
+
+.ui-autocomplete li:hover{
+  background-color:#4980FF;
+}
+.form-control:focus{
+  width:400px;
+  transition:0.5s;
+}
+.btn{
+  margin-bottom:20px;
+}
+
+.wikiItem{
+  width:400px;
+  background-color:white;
+  color:black;
+}
+.fa:hover{
+   font-size:28px;
+}
+
+#wiki ul{
+  list-style:none;
+}
+#wiki a{
+  color:black;
+  
+}
+#wiki li a:hover{
+   text-decoration:none;
+}
+#wiki li a:active{
+   text-decoration:none;
+}
+#wiki li:hover{
+  background-color:#4980FF;
+  cursor:pointer;
+}
+#wiki li{
+  background-color:white;
+  color:black;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+
+#wikiDiv{
+  visibility:hidden;
+}
